@@ -3,7 +3,7 @@ console.dir(categoriesList);
 
 const categoryItems = categoriesList.querySelectorAll('li.item');
 console.dir(categoryItems);
-// Виводимо кількість категорій
+
 console.log('Number of categories:', categoryItems.length);
 
 categoryItems.forEach((item) => {
